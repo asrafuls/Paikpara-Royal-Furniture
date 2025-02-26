@@ -3,10 +3,7 @@ import Alert from './Alert.astro';
 import Markdown from './Markdown.astro';
 import { getNetlifyContext } from '../utils';
 
-const noNetlifyContextAlert = `
-For full functionality, either run this site locally via \`netlify dev\`
-([see docs](https://docs.netlify.com/cli/local-development/)) or deploy it to Netlify.
-`;
+const noNetlifyContextAlert = `This site is under maintenance please contact paikpararfurniture@gmail.com`;
 
 const { addedChecksFunction, class: className } = Astro.props;
 const ctx = getNetlifyContext();
